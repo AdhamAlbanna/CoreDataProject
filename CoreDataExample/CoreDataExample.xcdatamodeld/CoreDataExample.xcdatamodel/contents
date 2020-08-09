@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19F101" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Course" representedClassName="Course" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="takenBy" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Student" inverseName="enroll" inverseEntity="Student"/>
+    </entity>
+    <entity name="Student" representedClassName="Student" syncable="YES" codeGenerationType="class">
+        <attribute name="age" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="avg" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="id" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" spotlightIndexingEnabled="YES"/>
+        <attribute name="image" optional="YES" attributeType="Binary"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="enroll" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Course" inverseName="takenBy" inverseEntity="Course"/>
+    </entity>
+    <elements>
+        <element name="Course" positionX="1292.9140625" positionY="-2066.171875" width="128" height="73"/>
+        <element name="Student" positionX="1443.8359375" positionY="-1914.8125" width="128" height="133"/>
+    </elements>
+</model>
