@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Student ManagmantVC-->
+        <!--Student ManagementVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="StudentManagmantVC" id="BYZ-38-t0r" customClass="StudentManagmantVC" customModule="CoreDataExample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="StudentManagementVC" id="BYZ-38-t0r" customClass="StudentManagementVC" customModule="CoreDataExample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -239,10 +239,10 @@
             </objects>
             <point key="canvasLocation" x="1858" y="108"/>
         </scene>
-        <!--Course ManagmantVC-->
+        <!--Course ManagementVC-->
         <scene sceneID="AWg-qK-fbM">
             <objects>
-                <viewController storyboardIdentifier="CourseManagmantVC" id="g7A-ms-9CK" customClass="CourseManagmantVC" customModule="CoreDataExample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CourseManagementVC" id="g7A-ms-9CK" customClass="CourseManagementVC" customModule="CoreDataExample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mdY-jC-STB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

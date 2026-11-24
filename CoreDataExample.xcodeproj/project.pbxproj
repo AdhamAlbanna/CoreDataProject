@@ -9,14 +9,12 @@
 /* Begin PBXBuildFile section */
 		523E654224C0572D00E2EA8F /* NavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523E654124C0572D00E2EA8F /* NavViewController.swift */; };
 		523E654724C05A5E00E2EA8F /* EditCourseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523E654424C059DD00E2EA8F /* EditCourseVC.swift */; };
-		523E654824C05A6000E2EA8F /* CourseManagmantVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523E654324C059DD00E2EA8F /* CourseManagmantVC.swift */; };
-		525EB19724C043D800F2D289 /* StudentManagmantVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525EB19624C043D800F2D289 /* StudentManagmantVC.swift */; };
-		525EB19A24C0447700F2D289 /* UIViewController+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525EB19924C0447700F2D289 /* UIViewController+Extention.swift */; };
+		523E654824C05A6000E2EA8F /* CourseManagementVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523E654324C059DD00E2EA8F /* CourseManagementVC.swift */; };
+		525EB19724C043D800F2D289 /* StudentManagementVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525EB19624C043D800F2D289 /* StudentManagementVC.swift */; };
+		525EB19A24C0447700F2D289 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525EB19924C0447700F2D289 /* UIViewController+Extension.swift */; };
 		525EB19C24C04D6400F2D289 /* EditStudentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525EB19B24C04D6400F2D289 /* EditStudentVC.swift */; };
-		525EB19E24C04EF900F2D289 /* UIStoryboard+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525EB19D24C04EF900F2D289 /* UIStoryboard+Extention.swift */; };
 		528F540524BDBBE1003B30A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528F540424BDBBE1003B30A9 /* AppDelegate.swift */; };
 		528F540724BDBBE1003B30A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528F540624BDBBE1003B30A9 /* SceneDelegate.swift */; };
-		528F540924BDBBE1003B30A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528F540824BDBBE1003B30A9 /* ViewController.swift */; };
 		528F540C24BDBBE1003B30A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 528F540A24BDBBE1003B30A9 /* Main.storyboard */; };
 		528F540F24BDBBE1003B30A9 /* CoreDataExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 528F540D24BDBBE1003B30A9 /* CoreDataExample.xcdatamodeld */; };
 		528F541124BDBBE3003B30A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 528F541024BDBBE3003B30A9 /* Assets.xcassets */; };
@@ -25,16 +23,14 @@
 
 /* Begin PBXFileReference section */
 		523E654124C0572D00E2EA8F /* NavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavViewController.swift; sourceTree = "<group>"; };
-		523E654324C059DD00E2EA8F /* CourseManagmantVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseManagmantVC.swift; sourceTree = "<group>"; };
+		523E654324C059DD00E2EA8F /* CourseManagementVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseManagementVC.swift; sourceTree = "<group>"; };
 		523E654424C059DD00E2EA8F /* EditCourseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCourseVC.swift; sourceTree = "<group>"; };
-		525EB19624C043D800F2D289 /* StudentManagmantVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentManagmantVC.swift; sourceTree = "<group>"; };
-		525EB19924C0447700F2D289 /* UIViewController+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extention.swift"; sourceTree = "<group>"; };
+		525EB19624C043D800F2D289 /* StudentManagementVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentManagementVC.swift; sourceTree = "<group>"; };
+		525EB19924C0447700F2D289 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		525EB19B24C04D6400F2D289 /* EditStudentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditStudentVC.swift; sourceTree = "<group>"; };
-		525EB19D24C04EF900F2D289 /* UIStoryboard+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Extention.swift"; sourceTree = "<group>"; };
 		528F540124BDBBE1003B30A9 /* CoreDataExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		528F540424BDBBE1003B30A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		528F540624BDBBE1003B30A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		528F540824BDBBE1003B30A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		528F540B24BDBBE1003B30A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		528F540E24BDBBE1003B30A9 /* CoreDataExample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataExample.xcdatamodel; sourceTree = "<group>"; };
 		528F541024BDBBE3003B30A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -63,21 +59,20 @@
 		525EB19524C043A700F2D289 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				523E654324C059DD00E2EA8F /* CourseManagmantVC.swift */,
-				525EB19624C043D800F2D289 /* StudentManagmantVC.swift */,
+				523E654324C059DD00E2EA8F /* CourseManagementVC.swift */,
+				525EB19624C043D800F2D289 /* StudentManagementVC.swift */,
 				523E654424C059DD00E2EA8F /* EditCourseVC.swift */,
 				525EB19B24C04D6400F2D289 /* EditStudentVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		525EB19824C0444000F2D289 /* Extention */ = {
+		525EB19824C0444000F2D289 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				525EB19924C0447700F2D289 /* UIViewController+Extention.swift */,
-				525EB19D24C04EF900F2D289 /* UIStoryboard+Extention.swift */,
+				525EB19924C0447700F2D289 /* UIViewController+Extension.swift */,
 			);
-			path = Extention;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		528F53F824BDBBE1003B30A9 = {
@@ -100,11 +95,10 @@
 			isa = PBXGroup;
 			children = (
 				5236EA5524C0661700C65CE4 /* Model */,
-				525EB19824C0444000F2D289 /* Extention */,
+				525EB19824C0444000F2D289 /* Extensions */,
 				525EB19524C043A700F2D289 /* Controllers */,
 				528F540424BDBBE1003B30A9 /* AppDelegate.swift */,
 				528F540624BDBBE1003B30A9 /* SceneDelegate.swift */,
-				528F540824BDBBE1003B30A9 /* ViewController.swift */,
 				523E654124C0572D00E2EA8F /* NavViewController.swift */,
 				528F540A24BDBBE1003B30A9 /* Main.storyboard */,
 				528F541024BDBBE3003B30A9 /* Assets.xcassets */,
@@ -186,16 +180,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				525EB19A24C0447700F2D289 /* UIViewController+Extention.swift in Sources */,
+				525EB19A24C0447700F2D289 /* UIViewController+Extension.swift in Sources */,
 				525EB19C24C04D6400F2D289 /* EditStudentVC.swift in Sources */,
-				525EB19724C043D800F2D289 /* StudentManagmantVC.swift in Sources */,
-				528F540924BDBBE1003B30A9 /* ViewController.swift in Sources */,
+				525EB19724C043D800F2D289 /* StudentManagementVC.swift in Sources */,
 				523E654224C0572D00E2EA8F /* NavViewController.swift in Sources */,
 				528F540524BDBBE1003B30A9 /* AppDelegate.swift in Sources */,
 				528F540724BDBBE1003B30A9 /* SceneDelegate.swift in Sources */,
-				523E654824C05A6000E2EA8F /* CourseManagmantVC.swift in Sources */,
+				523E654824C05A6000E2EA8F /* CourseManagementVC.swift in Sources */,
 				528F540F24BDBBE1003B30A9 /* CoreDataExample.xcdatamodeld in Sources */,
-				525EB19E24C04EF900F2D289 /* UIStoryboard+Extention.swift in Sources */,
 				523E654724C05A5E00E2EA8F /* EditCourseVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
